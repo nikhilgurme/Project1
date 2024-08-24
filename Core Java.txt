@@ -1,0 +1,171 @@
+1)Java Code for Subtraction :                                                                                                                                                                           
+ 
+ import java.util.*;
+    class Maths {
+    public static void main (String args[]){
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b= sc.nextInt();
+    int sub= a - b;
+    System.out.println(sub);
+    }
+    }
+
+
+2)Java Code for Addition :
+  
+   import java.util.*;
+    class Maths {
+    public static void main (String args[]){
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b= sc.nextInt();
+    int sub= a + b;
+    System.out.println(sub);
+    }
+    }
+
+3)Java Program using if else condition :
+  
+  import java.util.*;
+  class People {
+  public static void main(String args[]){
+  Scanner sc = new Scanner(System.in);
+  int age = sc.nextInt();
+  if(age>18)
+  {
+      System.out.println("Adult");
+  }
+  else
+  {
+      System.out.println("Not Adult");
+  }
+  }
+  }
+
+
+4)Java Program to check Even & Odd Numbers :
+
+  import java.util.*;
+  class OddandEven {
+      public static void main(String args[]){
+      Scanner sc = new Scanner(System.in);
+      int x = sc.nextInt();
+      if(x % 2 ==0)
+      {
+          System.out.println("Even");
+      }
+      else
+      {
+          System.out.println("Odd");
+      }
+    }
+  }
+
+5)Java Program to compare 2 numbers :
+
+  import java.util.*;
+   class Comparison {
+         public static void main (String args[]){
+         Scanner sc = new Scanner (System.in);
+         int a = sc.nextInt();
+         int b = sc.nextInt();
+         if (a==b)
+         {
+             System.out.println("Equal");
+         }
+         else
+         {
+             if (a>b)
+             {
+                 System.out.println("a is greater");
+             }
+             else
+             {
+                 System.out.println("a is smaller");
+             }
+         }
+      }
+   }
+
+
+6) Java Program using switch Break case :
+
+   import java.util.*;
+       class Conversation {
+    public static void main (String args[]){
+    Scanner sc = new Scanner(System.in);
+    int button = sc.nextInt();
+    switch (button){
+    case 1 : System.out.print("Hey");
+    break;
+    case 2 : System.out.println("Good Morning");
+    break;
+    case 3 : System.out.println("Hope you are doing well");
+    break;
+    }
+    }
+       }
+            
+
+7)Java Program using for loop :
+
+  class Games {
+      public static void main(String args[]){
+      for(int counter=0;counter < 10;counter=counter+1){
+      System.out.println("Paris Olympics 2024");
+      }
+      }
+}    
+
+8)Java Program using for loop to print no.s from 0 to 10 :
+
+  class Numbers {
+      public static void main (String args[]){
+      for(int counter = 0;counter <11;counter++){
+      System.out.println(counter + " ");
+      }
+      }
+}                                                        
+
+9)Java Program using while loop to print no.s from 0 to 5 :
+
+  class Numbers {
+      public static void main(String args[]){
+      int i =0;
+      while(i<=5){
+      System.out.println(i);
+      i= i+1;
+      }
+      }
+}
+
+10)Java Program using do while loop to print no.s from 0 to 19 :
+
+ 
+   class Numbers {
+      public static void main(String args[]){
+      int i =0;
+      do {
+          System.out.println(i);
+          i = i+1;
+      } while (i<20);
+      }
+      }class Maths {
+      public static void main(String args[]){
+      int number = 0;
+      if (number > 0)
+      {
+          System.out.println("Positive");
+      }
+      else if (number < 0)
+      {
+          System.out.println("Negative");
+      }
+      else
+      {
+          System.out.println("Zero");
+      }
+      }
+}
+
